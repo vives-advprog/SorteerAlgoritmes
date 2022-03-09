@@ -23,8 +23,6 @@ public class InsertionSorter {
                 ArrayUtils.swap(array, j, j-1);
                 j--;
             }
-            // Insert the element
-            array[j] = next;
         }
     }
 }
