@@ -50,7 +50,7 @@ public class ArrayUtils {
      * Alle elementen kleiner dan de pivot komen links van de pivot te staan
      * Alle elementen groter of gelijk aan de pivot komen rechts van de pivot te staan
      *
-     * @param array: de array die volgens een pivot element gesorteerd word
+     * @param array: de array die volgens een pivot element gesorteerd wordt
      */
     protected static void pivot(int[] array){
         // TODO oefening 19
