@@ -4,8 +4,8 @@ import java.util.Arrays;
 
 public class CompareSortingAlgoritmes {
 
-    private static String[] algoritmes = {"selection","insertion", "bubble", "merge", "quick"};
-    private static int[] experimentLengths = {10,100,1000,10000,100000,200000,500000,1000000};
+    private static final String[] algoritmes = {"selection","insertion", "bubble", "merge", "quick"};
+    private static final int[] experimentLengths = {10,100,1000,10000,100000,200000,500000,1000000};
     private static long[][] results;
 
     public static void main(String[] args) {
